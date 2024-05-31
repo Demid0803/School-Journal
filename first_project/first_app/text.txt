@@ -1,0 +1,17 @@
+#Минимум одна заглавная, минимум одна строчная буква, 
+# минимум один спецсимвол
+# (!?@#№;...), минимум одна цифра цифры
+
+
+
+# def hello(request):
+#     return HttpResponse("Hello User")
+
+
+
+# def generate_password(request):
+#     abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+#     supersymvol = [ "«", "!",  "@",  "#",  "$", "%", "^", "&", "*",  "(",  ")", "—",  "_",  "+", "=",  ";",  ":",  ",",  ".",  "/",  "?"]
+#     word_1 = ["sleep", "lazy", "fat", "young", "old", "cold", "hot", "sunny", "good", "lucky"]
+#     word_2 = ["dinozaur", "cloud", "summer", "watermelon", "cat", "zebra", "boot", "food", "money", "hat"]
+#     return HttpResponse(f"Your password is: {randint(10000000, 99999999)}_{choises(word_1)}_{choises(word_2)}{choises(abc.upper())}{choises(supersymvol)}{choises(abc.lower())}{choises(supersymvol)}{choises(abc.lower())}{choises(abc.lower())}{choises(abc.upper())}{choises(abc.upper())}{choises(abc.upper())}{choises(abc.upper())}{choises(abc.upper())}{choises(abc.upper())}{choises(supersymvol)}")
